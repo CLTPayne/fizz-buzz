@@ -41,7 +41,7 @@ describe('FizzBuzz', function() {
   describe('Not divisle by 3 and or 5', function() {
     fizzBuzz = new FizzBuzz();
 
-    it('returns FizzBuzz', function() {
+    it('returns the number', function() {
       expect(fizzBuzz.play(322)).toEqual(322);
     })
 
