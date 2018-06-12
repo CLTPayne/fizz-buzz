@@ -30,15 +30,15 @@ describe('FizzBuzz', function() {
 
   });
 
-  describe('Not divisle by 3 and or 5', function() {
+  describe('Not divisible by 3 and or 5', function() {
 
-    it('returns FizzBuzz', function() {
+    it('returns thre number', function() {
       expect(fizzBuzz.play(1)).toEqual(1);
     })
 
   });
 
-  describe('Not divisle by 3 and or 5', function() {
+  describe('Not divisible by 3 and or 5', function() {
     fizzBuzz = new FizzBuzz();
 
     it('returns the number', function() {
